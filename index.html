@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Portfolio - Alexander C. Magnus</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+    
+    <meta name="viewport" content="width=device-width, inistial-scale=1.0">
+    
+    <meta name="description" content="Portfolie af danske Multimediedesigner: Alexander C. Magnus. Læs om mig eller tjek mine tidligere projekter ud">
+    <meta name="keywords" content="portfolie, alexander christian magnus, studerende, multimediedesigner, designer, erhvervsakademi Aarhus, erhvervsakademi Aarhus">
+    
+    <link rel="icon" href="images/logoWord.png">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+   <link href="https://fonts.googleapis.com/css?family=Poppins:200,700,300" rel="stylesheet">
+</head>
+    
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script>
+    
+    
+       $(window).scroll(function(){
+  if($(document).scrollTop() > 600){//Here 200 may be not be exactly 200px
+    $('#alex').hide();
+  }
+});
+    
+     $(window).scroll(function(){
+  if($(document).scrollTop() < 601){//Here 200 may be not be exactly 200px
+    $('#alex').show();
+  }
+});
+    
+    $(window).scroll(function(){
+  if($(document).scrollTop() > 600){//Here 200 may be not be exactly 200px
+    $('.header-title').hide();
+  }
+});
+    
+     $(window).scroll(function(){
+  if($(document).scrollTop() < 601){//Here 200 may be not be exactly 200px
+    $('.header-title').show();
+  }
+});
+
+
+
+
+</script>
+    
+<body id="index_page">
+  <header>  
+      
+    <nav class="header-navigation">
+        
+        <ul>
+            <li class="active-link"> <a href="#about_section" class="header-link">About</a></li>
+            <li> <a href="projects.html" class="header-link">Projects</a> </li>
+        </ul>
+      
+    </nav>  
+      
+      
+      
+    <a href="index.html"><img id="logo" src="images/Logo.png" height="100" alt="alexander c. magnus' logo"></a>      
+      
+      
+        <h1 class="header-title">
+            Alexander
+            <br>
+            Web Designer
+        </h1> 
+      
+    <img id="alex" src="images/alex.png" alt="billede af Alexander C. Magnus">  
+      
+  </header>
+    
+    <div id="about_me">
+        
+        <img id="about_section" src="images/about_section.png" width="1903" alt="about section">
+        
+        <h1 id="about_me_title">About</h1>
+        
+        <h2 id="about_me_paragraph1">My name is Alexander. I am a danish Digital Designer and Developer, focusing on Brand Design, Responsive Web Design and Web Development.
+        
+        <p>I am currently attending MDU in Aarhus as a Multimedia Designer and am currently half a year in the education</p>
+            
+        <p>You can follow me on <a id="twitter_link" href="https://twitter.com/alexg4mepl4y">Twitter</a> , stalk me on <a id="facebook_link" href="https://www.facebook.com/alexander.c.magnus">Facebook</a>, or shoot me an Email at <a id="email_link" href="mailto:amwow@live.dk">amwow@live.dk</a></p>
+        </h2>
+        
+        
+    </div>
+</body>
+</html>

@@ -1,0 +1,1435 @@
+*
+{
+    box-sizing: border-box;
+}
+
+ html
+    {
+        scroll-behavior: smooth;
+    }
+    
+    body
+    {
+        background-color: black;
+    }  
+
+    footer
+    {   
+        position: absolute;
+        
+        font-size: 60px;
+        
+        color: white;
+        
+        bottom: -130%;
+        
+    }
+
+    #logo
+    {
+        float: left;
+        
+        margin-top: 40px;
+        margin-left: 40px;
+        
+        position: fixed;
+    }
+
+    #logo2
+    {
+        float: left;
+        
+        margin-top: -152px;
+        margin-left: 40px;
+        
+        position: absolute;
+    }
+
+    #projects_page #logo
+    {
+        float: left;
+        
+        margin-top: 40px;
+        margin-left: 40px;
+        
+        position: fixed;
+    }
+
+    /* HEADER IN INDEX PAGE */
+    
+    #index_page header .header-navigation
+    {
+        position: fixed;
+        
+        z-index: -10;
+    }
+
+    /* HEADER IN PROJECTS PAGE */
+
+    #projects_page header .header-navigation
+    {
+        position: absolute;
+        
+        z-index: -10;
+    }
+
+    #case header .header-navigation
+    {
+        position: absolute;
+        
+        z-index: -10;
+    }
+    
+    #alex
+    {
+        position: fixed;
+        
+        margin-left: 900px;
+        margin-top: 200px;
+        
+        z-index: -10;
+    }
+    
+    .header-title
+    {
+        color: white;
+        font-size: 96px;
+        
+        font-family: Poppins, Helvetica, Arial, sans-serif;
+        
+        line-height: 1.1;
+        font-weight: 600;
+        letter-spacing: -2px;
+        
+        position: fixed;
+        
+        margin-top: 400px;
+        margin-left: 100px;
+    }
+    
+    .header-navigation
+    {
+        
+        top: 8%;
+        right: 8%;
+        float:right;
+
+    }
+    
+    .header-navigation ul li
+    {
+        display: inline;
+        position: relative;
+        z-index: 1;
+        color: #999;
+        
+        font-family: Poppins;
+        
+        font-weight: 200px;
+        font-size: 20px;
+        padding: 10px;
+        
+    }
+
+    /* PROJECT LINKS - WHITE */
+
+    a.white-button:link
+    {
+        text-decoration: none;
+        
+        color: black
+    }
+
+    a.white-button:visited
+    {
+        text-decoration: none;
+        
+        color: black;
+        
+    }
+
+    a.white-button:hover
+    {
+        color: white;
+    }
+
+    /* PROJECT LINKS - BLACK */
+
+     a.black-button:link
+    {
+        text-decoration: none;
+        
+        color: white;
+    }
+
+    a.black-button:visited
+    {
+        text-decoration: none;
+        
+        color: white;
+        
+    }
+
+    a.black-button:hover
+    {
+        color: black;
+    }
+
+    /* NAV LINKS */
+    
+    a.header-link:link
+    {
+        text-decoration: none;
+        
+        color: #999;
+    }
+    
+    a.header-link:visited
+    {
+        text-decoration: none;
+        
+        color: #999;   
+    }
+    
+    a.header-link:hover
+    {
+        text-decoration: underline;
+        
+        color: #999;
+    }
+
+    /* ACTIVE LINK */
+
+    .active-link
+    {
+        text-decoration: underline;
+    }
+
+    #twitter_link, #facebook_link, #email_link
+    {   
+        text-decoration: none;
+        
+        color: blue;
+        
+        font-weight: 300;
+    
+    }
+    
+    #about_section
+    {
+        text-align: center;
+        
+        width: 100%;
+        margin-top: 750px;
+        
+        margin-left: -8px;
+
+        z-index: 10;
+        
+        position: absolute;
+    }
+    
+    #about_me_title
+    {
+        color: black;
+        font-size: 96px;
+        font-family: Poppins, sans-serif;
+        font-weight: 600;
+        
+        z-index: 10;
+        
+        position: absolute;
+        
+        margin-top: 1000px;
+        margin-left: 200px;
+        
+    }
+    
+    #about_me_paragraph1
+    {
+        color: black;
+        
+        font-size: 35px;
+        font-family: Poppins, sans-serif;
+        font-weight: 200;
+        
+        z-index: 10;
+        
+        position: absolute;
+        
+        margin-top: 1000px;
+        margin-left: 800px;
+        
+        align-content: center; 
+    }
+    
+    #about_me_paragraph1 p
+    {
+        font-size: 25px;
+    }
+
+    /* Projects Subsite */
+
+.case-container
+{   
+    background-color: white;
+        
+    box-shadow: inset 0 0 10px #000000;
+}
+.case-header
+{
+    font-family: Poppins, sans-serif;
+    font-weight: 200;
+}
+
+.case-title
+{
+    font-family: Poppins, sans-serif;
+    font-weight: 600;
+}
+
+.case-p
+{
+    font-family: Poppins, sans-serif;
+}
+
+.case-btn
+{
+    font-family: Poppins, sans-serif;
+    font-weight: 300;
+    
+    font-size: 20px;
+        
+    position: relative;
+     display: inline-block;
+     padding: 0 20px;
+     border: 2px solid;
+        
+    line-height: 2.5;
+        
+    border-radius: 4px;
+ 
+    background-color: white;
+    
+    color:black;
+        
+    transition-duration: 0.5s;
+}
+
+.case-btn:hover
+{
+    background-color: black;
+    
+    color: white;
+    
+    transition-duration: 0.5s;
+}
+
+
+
+    /* PROJECTS */
+
+    /* CASE1 */
+
+    #case1
+    { 
+        background: white; 
+        
+        box-shadow: inset 0 0 10px #000000;
+    }
+
+    #projects_case1_title
+    {
+        font-family: Poppins, sans-serif;
+        font-weight: 200;      
+        font-size: 40px;
+
+    }
+
+    #projects_case1_p
+    {
+        font-family: Poppins, sans-serif;
+        font-weight: 600;       
+        font-size: 60px;
+        
+    }
+
+    #rooftop_devices
+    {
+
+        
+    }
+
+    #case1_btn
+    {      
+        font-family: Poppins, sans-serif;
+        font-weight: 300;
+        font-size: 20px;
+        
+        display: block;
+        padding: 0 20px;
+        border: 2px solid;
+        
+        line-height: 2.5;
+        
+        border-radius: 4px;
+ 
+        background-color: white;
+        
+        color:black;
+        
+        transition-duration: 0.5s;
+    
+    }
+
+    #case1_btn:hover
+    {     
+        background-color: black;
+        
+        color: white;
+        
+        transition-duration: 0.5s;
+    }
+
+    #case1_btn:after
+    {  
+        
+    }
+
+    /* CASE2 */
+
+    #case2
+    {
+        background: black;
+        
+        box-shadow: inset 0 0 10px #000000;
+    }
+
+    #projects_case2_title
+    {
+        
+        font-family: Poppins, sans-serif;
+        font-weight: 200;
+        color: white; 
+        font-size: 40px;
+        
+    }
+
+    #projects_case2_p
+    {
+    
+        font-family: Poppins, sans-serif;
+        font-weight: 600;
+        color: white;    
+        font-size: 60px;
+    
+    }
+
+    #case2billede
+    {  
+        
+    }
+
+    #case2_btn
+    {
+        font-family: Poppins, sans-serif;
+        font-weight: 300;
+        font-size: 20px;
+        
+        padding: 0 20px;
+        border: 2px solid;
+        
+        line-height: 2.5;
+        
+        border-radius: 4px;
+
+        background-color: black;
+        
+        color:white;
+        
+        transition-duration: 0.5s;
+    }
+
+    #case2_btn:hover
+    {     
+        background-color: white;
+        
+        color: black;
+        
+        transition-duration: 0.5s;
+    }
+
+    #case2_btn:after
+    {  
+        
+    }
+
+    /* CASE3 */
+
+     #case3
+    {
+        background: white;
+
+        box-shadow: inset 0 0 10px #000000;
+    }
+
+    #projects_case3_title
+    {
+        font-family: Poppins, sans-serif;
+        font-weight: 200;   
+        font-size: 40px;
+    }
+
+    #projects_case3_p
+    {
+        font-family: Poppins, sans-serif;
+        font-weight: 600;
+        font-size: 60px;
+
+        
+    }
+
+    #case3billede
+    {
+
+        
+    }
+
+    #case3_btn
+    {
+        
+        font-family: Poppins, sans-serif;
+        font-weight: 300;
+        font-size: 20px;
+        
+        padding: 0 20px;
+        border: 2px solid;
+        
+        line-height: 2.5;
+        
+        border-radius: 4px;
+
+        
+        background-color: white;
+        
+        color:black;
+        
+        transition-duration: 0.5s;
+    
+    }
+
+    #case3_btn:hover
+    {     
+        background-color: black;
+        
+        color: white;
+        
+        transition-duration: 0.5s;
+    }
+
+    #case3_btn:after
+    {  
+        
+    }
+
+    /* CASE 4 */
+
+    #case4
+    {
+        background: black;
+        
+        box-shadow: inset 0 0 10px #000000;
+    }
+
+    #projects_case4_title
+    {
+        
+        font-family: Poppins, sans-serif;
+        font-weight: 200;
+        color: white;
+        
+        font-size: 40px;
+    }
+
+    #projects_case4_p
+    {
+    
+        font-family: Poppins, sans-serif;
+        font-weight: 600;
+        color: white;
+        
+        font-size: 60px;
+    }
+
+    #case4billede
+    {  
+        
+        border-radius: 10px;
+        
+        
+    }
+
+    #case4_btn
+    {
+        font-family: Poppins, sans-serif;
+        font-weight: 300;
+        font-size: 20px;
+        
+        padding: 0 20px;
+        border: 2px solid;
+        
+        line-height: 2.5;
+        
+        border-radius: 4px;
+
+        
+        background-color: black;
+        
+        color:white;
+        
+        transition-duration: 0.5s;
+    }
+
+    #case4_btn:hover
+    {     
+        background-color: white;
+        
+        color: black;
+        
+        transition-duration: 0.5s;
+    }
+
+    #case4_btn:after
+    {  
+        
+    }
+
+    /* CASE 5 */
+
+    #case5
+    {
+        background: white;
+
+        box-shadow: inset 0 0 10px #000000;
+    }
+
+    #projects_case5_title
+    {
+        font-family: Poppins, sans-serif;
+        font-weight: 200;   
+        font-size: 40px;
+    }
+
+    #projects_case5_p
+    {
+        font-family: Poppins, sans-serif;
+        font-weight: 600;
+        font-size: 60px;   
+    }
+
+    #case5billede
+    {
+
+        
+    }
+
+    #case5_btn
+    {
+        
+        font-family: Poppins, sans-serif;
+        font-weight: 300;
+        font-size: 20px;
+        
+        padding: 0 20px;
+        border: 2px solid;
+        
+        line-height: 2.5;
+        
+        border-radius: 4px;
+
+        
+        background-color: white;
+        
+        color:black;
+        
+        transition-duration: 0.5s;
+    
+    }
+
+    #case5_btn:hover
+    {     
+        background-color: black;
+        
+        color: white;
+        
+        transition-duration: 0.5s;
+    }
+
+    #case5_btn:after
+    {  
+        
+    }
+
+    
+
+
+
+/*MOBIL*/
+@media(max-width: 767px)
+{
+    #about_section
+    {
+        
+        height: 1400px;
+
+    }
+    
+    .header-title
+    {
+        font-size: 70px;
+        text-align: center;
+        
+        margin-top: 250px
+    }
+    
+    #about_me_paragraph1
+    {
+        margin-left: 30px;
+        margin-top: 1200px
+    }
+    
+    #alex
+    {
+        text-align: center;
+        
+        margin-left: 250px;
+        margin-top: 450px;
+        
+        width: 200px;
+        
+    }
+
+    
+    .footer
+    {
+        background-color: black;
+        
+        color: #999;
+        
+        text-align: center;
+        
+        font-family: Poppins, sans-serif;
+        font-weight: 300;
+    }
+    
+    /* CASE SUBSITE */
+    
+.case-container
+    {
+        margin-top: 200px;
+        text-align: center;
+    }
+    
+.case-header
+    {
+        padding-top: 20px;
+        text-align: center;
+    }
+    
+.case-title
+    {
+        text-align: center;
+    }
+    
+.case-p
+    {
+        text-align: center;
+    }
+    
+.case-btn
+    {
+        
+    }
+    
+.case-billede
+    {
+        width: 90%;
+    }
+    
+    
+    
+    
+    /* PROJECTS */
+    
+    /* CASE1 */
+    
+     #case1
+        {
+            margin-top: 200px;
+            text-align: center;
+        }
+        
+        #rooftop_devices
+        {
+            width: 100%;
+        }
+        
+        #projects_case1_title
+        {
+
+        }
+        
+        #projects_case1_p
+        {
+
+        }
+        
+        #case1_btn
+        {
+            position: relative;
+            display: inline-block;
+        }
+    
+    /* CASE2 */
+    
+        #case2
+        {
+            text-align: center;
+        }
+        
+        #case2billede
+        {
+            width: 100%;
+        }
+        
+        #projects_case2_title
+        {
+
+        }
+        
+        #projects_case2_p
+        {
+
+        }
+        
+        #case2_btn
+        {
+            position: relative;
+            display: inline-block;
+        }
+    /* CASE3 */
+    
+        #case3
+        {
+            text-align: center;
+        }
+        
+        #case3billede
+        {
+            width: 100%;
+        }
+        
+        #projects_case3_title
+        {
+
+        }
+        
+        #projects_case3_p
+        {
+
+        }
+        
+        #case3_btn
+        {
+            position: relative;
+            display: inline-block;
+        }
+    
+    /* CASE4 */
+    
+        #case4
+        {
+            text-align: center;
+        }
+        
+        #case4billede
+        {
+            margin-top: 30px;
+            width: 90%;
+        }
+        
+        #projects_case4_title
+        {
+
+        }
+        
+        #projects_case4_p
+        {
+
+        }
+        
+        #case4_btn
+        {
+            position: relative;
+            display: inline-block;
+        }
+    
+        /* CASE5 */
+    
+        #case5
+        {
+
+            text-align: center;
+        }
+        
+        #case5billede
+        {
+            margin-top: 30px;
+            width: 90%;
+        }
+        
+        #projects_case5_title
+        {
+
+        }
+        
+        #projects_case5_p
+        {
+
+        }
+        
+        #case5_btn
+        {
+            position: relative;
+            display: inline-block;
+        }
+    
+    
+}
+
+/*TABLET*/
+@media (min-width: 768px) and (max-width: 1329px)
+    {
+        
+        /* INDEX */
+        
+       #about_section
+        {
+            height: 1300px;
+        }
+        
+        #about_me_paragraph1
+        {
+            margin-left: 100px;
+            margin-top: 1200px;
+        }
+        
+        .header-title
+        {
+            font-size: 50px;
+        }
+        
+        #alex
+        {
+            width: 400px;
+            width: 100% auto;
+            margin-left: 500px
+            
+        }
+        
+        .footer
+    {
+        background-color: black;
+        
+        color: #999;
+        
+        text-align: center;
+        
+        font-family: Poppins, sans-serif;
+        font-weight: 300;
+    }
+        
+        
+            /* CASE SUBSITE */
+    
+.case-container
+    {
+        margin-top: 200px;
+        text-align: center;
+    }
+    
+.case-header
+    {
+        padding-top: 20px;
+        text-align: center;
+        
+        font-size: 30px;
+    }
+    
+.case-title
+    {
+        text-align: center;
+        
+        font-size: 60px;
+    }
+    
+.case-p
+    {
+        text-align: center;
+    }
+    
+.case-btn
+    {
+        
+    }
+    
+.case-billede
+    {
+        text-align: center;
+        width: 90%;
+    }
+        
+        /* PROJECTS */
+        
+        #case1
+        {
+
+            margin-top: 200px;
+            text-align: center;
+        }
+        
+        #rooftop_devices
+        {
+            width: 80%;
+        }
+        
+        #projects_case1_title
+        {
+            
+        }
+        
+        #projects_case1_p
+        {
+            
+        }
+        
+        #case1_btn
+        {
+            position: relative;
+            display: inline-block;
+        }
+        
+        /* CASE 2 */
+        
+         #case2
+        {
+            text-align: center;
+        }
+        
+        #case2billede
+        {
+            width: 80%;
+        }
+        
+        #projects_case2_title
+        {
+            
+        }
+        
+        #projects_case2_p
+        {
+            
+        }
+        
+        #case2_btn
+        {
+            position: relative;
+            display: inline-block;
+        }
+        
+        /* CASE 3 */
+        
+        
+          #case3
+        {
+            text-align: center;
+        }
+        
+        #case3billede
+        {
+            width: 80%;
+        }
+        
+        #projects_case3_title
+        {
+            
+        }
+        
+        #projects_case3_p
+        {
+            
+        }
+        
+        #case3_btn
+        {
+            position: relative;
+            display: inline-block;
+        }
+
+        /* CASE 4 */
+        
+        #case4
+        {           
+            text-align: center;
+        }
+        
+        #case4billede
+        {
+            margin-top: 30px;
+            width: 80%;
+        }
+        
+        #projects_case4_title
+        {
+            
+        }
+        
+        #projects_case4_p
+        {
+
+        }
+        
+        #case4_btn
+        {
+            position: relative;
+            display: inline-block;
+        }
+        
+        /* CASE 5*/
+        
+        #case5
+        {
+
+            text-align: center;
+        }
+        
+        #case5billede
+        {
+            margin-top: 30px;
+            width: 70%;
+        }
+        
+        #projects_case5_title
+        {
+
+        }
+        
+        #projects_case5_p
+        {
+
+        }
+        
+        #case5_btn
+        {
+            position: relative;
+            display: inline-block;
+        }
+}
+
+/* DESKTOP */
+@media (min-width: 1330px)
+{
+    
+    
+    .footer
+    {
+        background-color: black;
+        
+        color: #999;
+        
+        text-align: center;
+        
+        font-family: Poppins, sans-serif;
+        font-weight: 300;
+    }
+    
+    
+                /* CASE SUBSITE */
+
+    .case-container
+    {
+        margin-top: 200px;
+        text-align: center;
+    }
+    
+.case-header
+    {
+        padding-top: 20px;
+        text-align: center;
+        
+        font-size: 30px;
+    }
+    
+.case-title
+    {
+        text-align: center;
+        
+        font-size: 60px;
+    }
+    
+.case-p
+    {
+        text-align: center;
+    }
+    
+.case-btn
+    {
+        
+    }
+    
+.case-billede
+    {
+        
+    }
+        
+    /* PROJECTS */
+    
+    /* CASE 1 */
+    
+    #case1
+        {
+            margin-top: 200px;
+            height: 500px
+        }
+        
+        #rooftop_devices
+        {
+            width: 900px;
+            margin-bottom: 50px;
+            float: left;
+        }
+        
+        #projects_case1_title
+        {
+            text-align: right;
+            
+            margin-right: 190px;
+            padding-top: 80px;
+
+        }
+        
+        #projects_case1_p
+        {
+            text-align: right;
+            
+            margin-right: 130px;
+
+        }
+        
+        #case1_btn
+        {
+            position: relative;
+            display: inline-block;
+            float: right;
+            
+            margin-right: 170px
+
+        }
+        
+        /* CASE 2 */
+        
+         #case2
+        {
+            height: 300px
+        }
+        
+        #case2billede
+        {
+            width: 900px;
+            margin-bottom: 50px;
+            float: right;
+        }
+        
+        #projects_case2_title
+        {
+            text-align: left;
+            
+            margin-left: 190px;
+            padding-top: 80px;
+        }
+        
+        #projects_case2_p
+        {
+            text-align: left;
+            
+            margin-left: 130px;
+        }
+        
+        #case2_btn
+        {
+            position: relative;
+            display: inline-block;
+            float: left;
+            
+            margin-left: 180px
+        }
+        
+        /* CASE 3 */
+        
+       #case3
+        {
+            margin-top: 200px;
+            height: 550px
+        }
+        
+        #case3billede
+        {
+            width: 900px;
+            margin-bottom: 50px;
+            float: left;
+        }
+        
+        #projects_case3_title
+        {
+            text-align: right;
+            
+            margin-right: 190px;
+            padding-top: 100px;
+
+        }
+        
+        #projects_case3_p
+        {
+            text-align: right;
+            
+            margin-right: 130px;
+
+        }
+        
+        #case3_btn
+        {
+            position: relative;
+            display: inline-block;
+            float: right;
+            
+            margin-right: 170px
+
+        }
+
+        /* CASE 4 */
+        
+         #case4
+        {
+            height: 300px
+        }
+        
+        #case4billede
+        {
+            width: 600px;
+            margin-bottom: 50px;
+            float: right;
+            margin-right: 20px;
+            margin-top: 40px;
+        }
+        
+        #projects_case4_title
+        {
+            text-align: left;
+            
+            margin-left: 235px;
+            padding-top: 80px;
+        }
+        
+        #projects_case4_p
+        {
+            text-align: left;
+            
+            margin-left: 130px;
+        }
+        
+        #case4_btn
+        {
+            position: relative;
+            display: inline-block;
+            float: left;
+            
+            margin-left: 235px
+        }
+    
+        /* CASE 5 */
+    
+        #case5
+        {
+            margin-top: 200px;
+            height: 550px
+        }
+        
+        #case5billede
+        {
+            width: 550px;
+            margin-bottom: 50px;
+            margin-top: 30px;
+            margin-left: 20px;
+            float: left;
+        }
+        
+        #projects_case5_title
+        {
+            text-align: right;
+            
+            margin-right: 250px;
+            padding-top: 100px;
+
+        }
+        
+        #projects_case5_p
+        {
+            text-align: right;
+            
+            margin-right: 80px;
+
+        }
+        
+        #case5_btn
+        {
+            position: relative;
+            display: inline-block;
+            float: right;
+            
+            margin-right: 255px
+
+        }
+}
+        
+    
+    
+    
+    
+    
+    
+}
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
