@@ -557,7 +557,7 @@
         font-weight: 600;
         color: white;
         
-        font-size: 60px;
+        font-size: 50px;
     }
 
     #case4billede
@@ -901,6 +901,7 @@
         
         #projects_case4_p
         {
+            width: 100%;
 
         }
         
@@ -1154,7 +1155,7 @@
         
         #projects_case4_p
         {
-
+            
         }
         
         #case4_btn
