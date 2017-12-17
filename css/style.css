@@ -688,22 +688,42 @@
     {
         
         height: 1400px;
-        
+             
 
     }
     
     .header-title
     {
-        font-size: 70px;
+        font-size: 50px;
         text-align: center;
         
+        margin-left: 0px;
+        
         margin-top: 250px
+    }
+    
+    #about_me_title
+    {
+        font-size: 50px;
+        
+        margin-left: 130px;
+        
+        text-align: center;
     }
     
     #about_me_paragraph1
     {
         margin-left: 30px;
-        margin-top: 1200px
+        margin-top: 1200px;
+        
+        font-size: 30px;
+        
+        text-align: center;
+    }
+    
+    #about_me p
+    {
+        font-size: 20px;
     }
     
     #alex
@@ -713,11 +733,12 @@
             z-index: -20;
             
             margin: 0;
+        
+            margin-left: -60px;
 
-            margin-left: 80px;
             margin-top: 470px;
         
-            width: 500px;;
+            width: 500px;
         
             -ms-transform: rotate(-5deg); /* IE 9 */
             -webkit-transform: rotate(-5deg); /* Safari */
