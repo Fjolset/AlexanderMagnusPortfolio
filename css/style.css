@@ -84,10 +84,17 @@
     {
         position: fixed;
         
-        margin-left: 900px;
-        margin-top: 200px;
+        z-index: -20;
         
-        z-index: -10;
+        margin-left: 790px;
+        margin-top: 150px;
+        
+        
+        -ms-transform: rotate(-5deg); /* IE 9 */
+        -webkit-transform: rotate(-5deg); /* Safari */
+        transform: rotate(-5deg);
+        
+        pointer-events: none;
     }
     
     .header-title
@@ -120,7 +127,7 @@
     {
         display: inline;
         position: relative;
-        z-index: 1;
+        z-index: 10;
         color: #999;
         
         font-family: Poppins;
@@ -681,6 +688,7 @@
     {
         
         height: 1400px;
+        
 
     }
     
@@ -700,13 +708,22 @@
     
     #alex
     {
-        text-align: center;
+        position: fixed;
         
-        margin-left: 250px;
-        margin-top: 450px;
+            z-index: -20;
+            
+            margin: 0;
+
+            margin-left: 80px;
+            margin-top: 470px;
         
-        width: 200px;
+            width: 500px;;
         
+            -ms-transform: rotate(-5deg); /* IE 9 */
+            -webkit-transform: rotate(-5deg); /* Safari */
+            transform: rotate(-5deg);
+        
+            pointer-events: none;
     }
 
     
@@ -931,10 +948,21 @@
         
         #alex
         {
-            width: 400px;
-            width: 100% auto;
-            margin-left: 500px
+            position: fixed;
+        
+            z-index: -20;
             
+            margin: 0;
+
+            margin-left: 320px;
+            margin-top: 180px;
+            margin-right: 1%;
+        
+            -ms-transform: rotate(-5deg); /* IE 9 */
+            -webkit-transform: rotate(-5deg); /* Safari */
+            transform: rotate(-5deg);
+        
+            pointer-events: none;
         }
         
         .footer
@@ -1151,9 +1179,7 @@
         
         font-family: Poppins, sans-serif;
         font-weight: 300;
-    }
-    
-    
+    }   
                 /* CASE SUBSITE */
 
     .case-container
