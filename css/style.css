@@ -86,9 +86,6 @@
         
         z-index: -20;
         
-        margin-left: 790px;
-        margin-top: 150px;
-        
         
         -ms-transform: rotate(-5deg); /* IE 9 */
         -webkit-transform: rotate(-5deg); /* Safari */
@@ -100,7 +97,6 @@
     .header-title
     {
         color: white;
-        font-size: 96px;
         
         font-family: Poppins, Helvetica, Arial, sans-serif;
         
@@ -109,9 +105,6 @@
         letter-spacing: -2px;
         
         position: fixed;
-        
-        margin-top: 400px;
-        margin-left: 100px;
     }
     
     .header-navigation
@@ -248,7 +241,6 @@
         position: absolute;
         
         margin-top: 1000px;
-        margin-left: 200px;
         
     }
     
@@ -689,24 +681,24 @@
         
         height: 1400px;
              
-
+        margin-top: 550px;
     }
     
     .header-title
     {
         font-size: 50px;
+        
         text-align: center;
+        width: 100%;
         
-        margin-left: 0px;
-        
-        margin-top: 250px
+        margin-top: 150px
     }
     
     #about_me_title
     {
         font-size: 50px;
         
-        margin-left: 130px;
+        width: 100%;
         
         text-align: center;
     }
@@ -714,7 +706,7 @@
     #about_me_paragraph1
     {
         margin-left: 30px;
-        margin-top: 1200px;
+        margin-top: 1100px;
         
         font-size: 30px;
         
@@ -726,20 +718,21 @@
         font-size: 20px;
     }
     
-    #alex
+    #alex 
     {
         position: fixed;
         
             z-index: -20;
             
-            margin: 0;
-        
-            margin-left: -60px;
+            text-align: center;
 
-            margin-top: 470px;
+            margin-top: 255px;
         
-            width: 500px;
-        
+            width: 100%;
+            min-width: 480px;
+            max-width: 600px;
+
+
             -ms-transform: rotate(-5deg); /* IE 9 */
             -webkit-transform: rotate(-5deg); /* Safari */
             transform: rotate(-5deg);
@@ -964,7 +957,17 @@
         
         .header-title
         {
-            font-size: 50px;
+            font-size: 60px;
+            
+            margin-top: 400px;
+            margin-left: 100px
+        }
+        
+        #about_me_title
+        {
+            text-align: center;
+            
+            width: 100%;
         }
         
         #alex
@@ -1189,6 +1192,12 @@
 @media (min-width: 1330px)
 {
     
+    #alex
+    {
+        margin-left: 790px;
+        margin-top: 150px;
+    }
+    
     
     .footer
     {
@@ -1201,6 +1210,12 @@
         font-family: Poppins, sans-serif;
         font-weight: 300;
     }   
+    
+    #about_me_title
+    {
+        margin-top: 1100px;
+        margin-left: 200px;
+    }
                 /* CASE SUBSITE */
 
     .case-container
@@ -1222,6 +1237,20 @@
         text-align: center;
         
         font-size: 60px;
+    }
+    
+    .header-title
+    {
+        margin-top: 400px;
+        margin-left: 200px;
+        
+        font-size: 96px;
+    }
+    
+    #about_me_title
+    {
+        
+        
     }
     
 .case-p
