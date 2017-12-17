@@ -701,14 +701,16 @@
         width: 100%;
         
         text-align: center;
+        
+        margin-top: 900px
     }
     
     #about_me_paragraph1
     {
         margin-left: 30px;
-        margin-top: 1100px;
+        margin-top: 1000px;
         
-        font-size: 30px;
+        font-size: 25px;
         
         text-align: center;
     }
@@ -726,11 +728,11 @@
             
             text-align: center;
 
-            margin-top: 255px;
+            margin-top: 265px;
         
             width: 100%;
-            min-width: 480px;
-            max-width: 600px;
+            min-width: 430px;
+            max-width: 500px;
 
 
             -ms-transform: rotate(-5deg); /* IE 9 */
