@@ -17,32 +17,21 @@
 
 	<div id="nav">
 		<div>
-			<h2 style="text-decoration: underline; font-family: sans-serif;">Spørgsmål</h2>
+			<a href="index.html" style="text-decoration: none; font-family: sans-serif;"><h2 >Spørgsmål</h2></a>
 		</div>
 
 		<div>
-			<a href="spil.html" style="text-decoration: none; font-family: sans-serif;"><h2 >Spil</h2></a>
+			<h2 style="text-decoration: underline; font-family: sans-serif;">Spil</h2>
 		</div>
 	</div>
 	
-	<h1 id="header">Back-2-Back</h1>
-
-	<form id="add-question-form">
-			<input id="form-input" type="text" name="question" placeholder="Spørgsmål">	
-			<button id="knap">Tilføj Spørgsmål</button>
-	</form>
-	
-	<div id="seperator"></div>
-
-	<h2 id="questionHeader">Spørgsmål</h2>
-
-	<div class="content">
-	
-		
-		
-		<ul id="question-list"></ul>
-
+	<a style="text-decoration: none;"><button id="nyt-spil-knap" href="spil.html" onclick="nytSpil()">NYT SPIL</button></a>
+	<div id="question-area">
+		<h1 id="question-text"></h1>
 	</div>
+	<h1 id="point">0</h1>
+	<button id="point-knap" onclick="givPoint()">POINT</button>
+	
 
 
 <script>
@@ -63,6 +52,7 @@
 	
 
 	<script src="./app.js"></script>
+	<script src="./spil.js"></script>
 </body>
 
 </html>
